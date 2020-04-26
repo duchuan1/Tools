@@ -38,7 +38,7 @@ namespace WebApiServer.Controllers
                 rcBody = dicRcMsg["PostReturnBody"];
             }
 
-            _logger.Info($"Post Rsp {rcBody}");
+            _logger.Info($"Post Rsp Body: {rcBody}");
             return GetBody(rcBody);
         }
 
@@ -53,7 +53,7 @@ namespace WebApiServer.Controllers
                 rcBody = dicRcMsg["GetReturnBody"];
             }
 
-            _logger.Info($"Get Rsp {rcBody}");
+            _logger.Info($"Get Rsp Body: {rcBody}");
 
             return GetBody(rcBody);
         }
