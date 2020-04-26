@@ -21,5 +21,11 @@
     <PackageReference Include="Microsoft.NETCore.Targets" Version="3.1.0" PrivateAssets="all" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="使用说明.docx">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 
 </Project>
