@@ -29,7 +29,8 @@ namespace WebApiServer.Controllers
         {
             JObject obj = JsonConvert.DeserializeObject<JObject>(content.ToString());
 
-            _logger.Info($"Post Req {obj}");
+            _logger.Info($"Post Req Body: {JsonConvert.SerializeObject(obj)}");
+            _logger.Info($"Post Req Headers: {JsonConvert.SerializeObject(HttpContext.Request.Headers)}");
 
             string rcBody = JsonConvert.SerializeObject(obj);
             if (dicRcMsg.ContainsKey("PostReturnBody"))
@@ -37,7 +38,7 @@ namespace WebApiServer.Controllers
                 rcBody = dicRcMsg["PostReturnBody"];
             }
 
-            _logger.Info($"Post Rsp {obj}");
+            _logger.Info($"Post Rsp {rcBody}");
             return GetBody(rcBody);
         }
 
@@ -45,7 +46,7 @@ namespace WebApiServer.Controllers
         public ContentResult Get()
         {
             var result = new JObject() { new JProperty("result", "200")};
-
+            _logger.Info($"Get Req Headers: {JsonConvert.SerializeObject(HttpContext.Request.Headers)}");
             string rcBody = JsonConvert.SerializeObject(result);
             if (dicRcMsg.ContainsKey("GetReturnBody"))
             {
@@ -61,7 +62,7 @@ namespace WebApiServer.Controllers
         {
             var content = new ContentResult();
             content.Content = sSontent;
-            content.ContentType = "application/json";
+            content.ContentType = "application/json;charset=utf-8";
             return content;
         }
     }
