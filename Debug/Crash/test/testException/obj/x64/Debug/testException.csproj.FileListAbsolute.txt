@@ -1,0 +1,12 @@
+F:\tmp\WindbgTest\test\testException\bin\x64\Debug\testException.exe.config
+F:\tmp\WindbgTest\test\testException\bin\x64\Debug\testException.exe
+F:\tmp\WindbgTest\test\testException\bin\x64\Debug\testException.pdb
+F:\tmp\WindbgTest\test\testException\bin\Debug\testException.exe.config
+F:\tmp\WindbgTest\test\testException\bin\Debug\testException.exe
+F:\tmp\WindbgTest\test\testException\bin\Debug\testException.pdb
+F:\tmp\WindbgTest\test\testException\obj\x64\Debug\testException.Form1.resources
+F:\tmp\WindbgTest\test\testException\obj\x64\Debug\testException.Properties.Resources.resources
+F:\tmp\WindbgTest\test\testException\obj\x64\Debug\testException.csproj.GenerateResource.cache
+F:\tmp\WindbgTest\test\testException\obj\x64\Debug\testException.csproj.CoreCompileInputs.cache
+F:\tmp\WindbgTest\test\testException\obj\x64\Debug\testException.exe
+F:\tmp\WindbgTest\test\testException\obj\x64\Debug\testException.pdb
