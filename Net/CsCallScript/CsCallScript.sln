@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsCallScript", "CsCallScript\CsCallScript.csproj", "{97FF0641-398E-41DE-9C98-3F679E6E9ECC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsCallLuaScript", "CsCallLuaScript\CsCallLuaScript.csproj", "{361A502F-62DA-445E-B438-3C73A4B7F83A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsCallPythonScript", "CsCallPythonScript\CsCallPythonScript.csproj", "{A6480307-26AD-4890-9B5D-2E7BB43CBFFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsCallScriptDemo", "CsCallScriptDemo\CsCallScriptDemo.csproj", "{E0F5E501-3371-4283-9CF6-BE8231CCAFD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsCallString", "CsCallString\CsCallString.csproj", "{A041FE15-A0D0-4683-960C-ECB75E3A53E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsCallJavaScript", "CsCallJavaScript\CsCallJavaScript.csproj", "{C386BAAD-3BE1-432C-B7EE-F80105BAC823}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{97FF0641-398E-41DE-9C98-3F679E6E9ECC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97FF0641-398E-41DE-9C98-3F679E6E9ECC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97FF0641-398E-41DE-9C98-3F679E6E9ECC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97FF0641-398E-41DE-9C98-3F679E6E9ECC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{361A502F-62DA-445E-B438-3C73A4B7F83A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{361A502F-62DA-445E-B438-3C73A4B7F83A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{361A502F-62DA-445E-B438-3C73A4B7F83A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{361A502F-62DA-445E-B438-3C73A4B7F83A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6480307-26AD-4890-9B5D-2E7BB43CBFFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6480307-26AD-4890-9B5D-2E7BB43CBFFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6480307-26AD-4890-9B5D-2E7BB43CBFFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6480307-26AD-4890-9B5D-2E7BB43CBFFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E0F5E501-3371-4283-9CF6-BE8231CCAFD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E0F5E501-3371-4283-9CF6-BE8231CCAFD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E0F5E501-3371-4283-9CF6-BE8231CCAFD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E0F5E501-3371-4283-9CF6-BE8231CCAFD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A041FE15-A0D0-4683-960C-ECB75E3A53E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A041FE15-A0D0-4683-960C-ECB75E3A53E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A041FE15-A0D0-4683-960C-ECB75E3A53E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A041FE15-A0D0-4683-960C-ECB75E3A53E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C386BAAD-3BE1-432C-B7EE-F80105BAC823}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C386BAAD-3BE1-432C-B7EE-F80105BAC823}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C386BAAD-3BE1-432C-B7EE-F80105BAC823}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C386BAAD-3BE1-432C-B7EE-F80105BAC823}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DB60510E-003E-4D44-8C2E-1A9F2CBCA66C}
+	EndGlobalSection
+EndGlobal
