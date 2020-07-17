@@ -5,6 +5,7 @@ Windbg\adplus.exe -crash -pmn testException.exe -o crash
 
 //crash之后会出现dump文件
 1. 使用windbg加载dump文件
-2. 依次执行以下命令
+2 .sympath pdb路径 设置pdb路径
+3. 依次执行以下命令
 .loadby sos clr
 !analyze -v 
