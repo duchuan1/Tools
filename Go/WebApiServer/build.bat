@@ -1,0 +1,1 @@
+go build --ldflags "-extldflags -static -s -w"
