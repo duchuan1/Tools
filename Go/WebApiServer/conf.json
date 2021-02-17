@@ -1,0 +1,10 @@
+{
+    "server": "0.0.0.0:8080",
+    "uris": [
+      {
+        "path": "/",
+        "body": "{\"code\":\"200\",\"msg\":\"success\"}",
+        "headers": {"Content-Type":"application/json"}
+      }
+    ]
+  }
